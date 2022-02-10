@@ -30,7 +30,7 @@ np.random.seed(seed)
 
 
 # Opening JSON file
-f = open('/Users/costinbaroiu/Desktop/DocPoli/An 2/Res-2/sarcasm_data.json')
+f = open('sarcasm_data.json')
  
 # returns JSON object as
 # a dictionary
@@ -412,7 +412,7 @@ print('Accuracy: %.3f' % acc_mean)
 print('F1 Score: %.3f' % f1_mean)
 
 #GloVe
-path_to_glove_file = 'E:/Doctorat/Poli/Proiect/Alfa/.vector_cache/glove.6B.100d.txt'
+path_to_glove_file = 'glove.6B.100d.txt'
 
 embeddings_index = {}
 with open(path_to_glove_file, encoding="utf8") as f:
